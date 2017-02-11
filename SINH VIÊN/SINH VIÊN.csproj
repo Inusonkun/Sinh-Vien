@@ -44,8 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dal\DataAccess.cs" />
-    <Compile Include="Dal\LoginProvider.cs" />
+    <Compile Include="DAL\DataAccess.cs" />
+    <Compile Include="DAL\LoginProvider.cs" />
     <Compile Include="DanhSachNguoiDung.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

@@ -28,7 +28,7 @@ namespace SINH_VIÊN.SystemForm
         private void btnLogin_Click(object sender, EventArgs e)
         {
             //Thực hiện đăng nhập vào ứng Demo với thông tin trên
-            string loginApp = Login.LoginApp(
+            string loginApp = LoginProvider.LoginApp(
                 MyApp.gHostDB, MyApp.gPortDB, MyApp.gServiceNameDB, txtUserName.Text, txtPassword.Text,
                 txtUserName.Text, txtPassword.Text);
             if (loginApp.Equals("true"))
