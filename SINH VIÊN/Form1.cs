@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SINH_VIÊN.SystemForm;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,7 +20,7 @@ namespace SINH_VIÊN
 
         private void đăngNhậpToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Login frm = new Login();
+            frmLogin frm = new frmLogin();
             frm.Show();
             this.Hide();
         }
